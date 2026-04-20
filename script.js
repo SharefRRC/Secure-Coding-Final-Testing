@@ -1,4 +1,5 @@
 // Wi‑Fi Registration Portal JavaScript
+//Check for Vulernabilities in this code
 
 
 
@@ -113,7 +114,7 @@ function renderAdminPanel() {
       return;
     }
 
-    // Insecure: build HTML table with raw values
+    
     var html = "<table border='1' cellpadding='4'><tr>" +
       "<th>Name</th><th>Room</th><th>Wi‑Fi Password</th><th>Reason</th></tr>";
 
